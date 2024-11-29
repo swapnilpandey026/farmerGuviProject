@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmer Dashboard</title>
+  <link rel="stylesheet" href="farmer.css">
+</head>
+<body>
+  <header>
+    <h1>Farmer Dashboard</h1>
+  </header>
+  <main>
+    <h2>Add Your Products</h2>
+    <form id="product-form">
+      <input type="text" placeholder="Product Name" required>
+      <input type="number" placeholder="Price per Unit" required>
+      <input type="number" placeholder="Quantity" required>
+      <button type="submit">Add Product</button>
+    </form>
+    <h3>Your Listings</h3>
+    <div id="product-list"></div>
+  </main>
+  <script src="farmer.js"></script>
+</body>
+</html>
